@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting opencv-python
+  Downloading opencv_python-4.9.0.80-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (41.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.3/41.3 MB 2.2 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.21.2 in ./venv/lib/python3.11/site-packages (from opencv-python->-r /tmp/package (line 1)) (1.26.4)
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.9.0.80

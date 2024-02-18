@@ -1,0 +1,64 @@
+* STARTING INSTALLATON AT Sun 18 Feb 13:24:28 EST 2024.
+
+* No prior Allsky found.
+* RPi camera found.
+* Using the 'master' branch.
+* Displaying notification image 'InstallationInProgress.jpg'
+* CURRENT_LOCALE=en_GB.UTF-8, TEMP_LOCALE=[[LANG=en_GB.UTF-8 ]]
+* Using RPi camera.
+* Using current hostname of 'allsky'.
+* RAM_SIZE=8192, SUGGESTED_SWAP_SIZE=0.
+* Size of current swap (100 MB) is sufficient; no change needed.
+* /home/brian/allsky/tmp is now in memory.
+* Installing the web server.
+* Installing dependencies.
+* Preparing Allsky commands.
+* Modifying locations for WebUI.
+* Setting up WebUI options and default settings for RPi cameras.
+* Making new settings file '/home/brian/allsky/config/settings.json'.
+* Executing makeChanges.sh --force --cameraTypeOnly   'cameraType' 'Camera Type' '' 'RPi'
+* Settings files:
+    -rw-r--r-- 2 brian brian 1971 Feb 18 13:31 /home/brian/allsky/config/settings.json
+    -rw-r--r-- 2 brian brian 1971 Feb 18 13:31 /home/brian/allsky/config/settings_RPi_HQ.json
+* Keeping 'en_GB.UTF-8' locale.
+* Settings file '/home/brian/allsky/config/settings.json' did NOT contain .locale so adding it.
+* Settings files now:
+    -rw-r--r-- 2 brian brian 1982 Feb 18 13:31 /home/brian/allsky/config/settings.json
+    -rw-r--r-- 2 brian brian 1982 Feb 18 13:31 /home/brian/allsky/config/settings_RPi_HQ.json
+* Setting permissions on /var/log/allsky.log and /var/log/allskyperiodic.log.
+* Installing PHP modules and dependencies.
+* Attempting to locate Python dependency file
+* Using '/home/brian/allsky/config_repo/requirements-bookworm-64.txt'
+* Installing python3-full libgfortran5 libopenblas0-pthread.
+* Installing Python_dependencies for :
+*    === Package #  1 of 15: [numpy]
+*    === Package #  2 of 15: [opencv-python]
+*    === Package #  3 of 15: [Pillow]
+*    === Package #  4 of 15: [pyephem]
+*    === Package #  5 of 15: [skyfield]
+*    === Package #  6 of 15: [astral]
+*    === Package #  7 of 15: [pytz]
+*    === Package #  8 of 15: [scipy]
+*    === Package #  9 of 15: [paho-mqtt]
+*    === Package # 10 of 15: [photutils]
+*    === Package # 11 of 15: [astropy]
+*    === Package # 12 of 15: [suncalc]
+*    === Package # 13 of 15: [Adafruit-Blinka]
+*    === Package # 14 of 15: [vcgencmd]
+*    === Package # 15 of 15: [requests]
+* Installing Trutype fonts.
+* Setting up modules and overlays.
+* Copying '/home/brian/allsky/config/overlay/config/overlay-RPi.json' to 'overlay.json'.
+* Prompting for Latitude and Longitude.
+* Latitude set to 40.2793N.
+* Longitude set to 74.927504W.
+* Updating some '/home/brian/allsky/config/config.sh' variables.
+* Setting permissions on web-related files.
+* Adding brian to www-data group.
+* Creating/updating sudoers file.
+* Pi will reboot after installation completes.
+* Displaying notification image 'ConfigurationNeeded.jpg'
+* Added message about running 'check_allsky.sh'.
+
+* ENDING INSTALLATON AT Sun 18 Feb 13:50:31 EST 2024.
+

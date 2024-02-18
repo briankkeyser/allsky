@@ -1,0 +1,436 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  cabextract fonts-liberation libmspack0
+The following NEW packages will be installed:
+  cabextract fonts-liberation libmspack0 ttf-mscorefonts-installer
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 935 kB of archives.
+After this operation, 2,470 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main arm64 libmspack0 arm64 0.11-1 [48.2 kB]
+Get:2 http://deb.debian.org/debian bookworm/main arm64 cabextract arm64 1.9-3 [34.8 kB]
+Get:3 http://deb.debian.org/debian bookworm/main arm64 fonts-liberation all 1:1.07.4-11 [828 kB]
+Get:4 http://deb.debian.org/debian bookworm/contrib arm64 ttf-mscorefonts-installer all 3.8.1 [24.3 kB]
+Preconfiguring packages ...
+Fetched 935 kB in 0s (3,320 kB/s)
+Selecting previously unselected package libmspack0:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 101361 files and directories currently installed.)
+Preparing to unpack .../libmspack0_0.11-1_arm64.deb ...
+Unpacking libmspack0:arm64 (0.11-1) ...
+Selecting previously unselected package cabextract.
+Preparing to unpack .../cabextract_1.9-3_arm64.deb ...
+Unpacking cabextract (1.9-3) ...
+Selecting previously unselected package fonts-liberation.
+Preparing to unpack .../fonts-liberation_1%3a1.07.4-11_all.deb ...
+Unpacking fonts-liberation (1:1.07.4-11) ...
+Selecting previously unselected package ttf-mscorefonts-installer.
+Preparing to unpack .../ttf-mscorefonts-installer_3.8.1_all.deb ...
+Unpacking ttf-mscorefonts-installer (3.8.1) ...
+Setting up libmspack0:arm64 (0.11-1) ...
+Setting up fonts-liberation (1:1.07.4-11) ...
+Setting up cabextract (1.9-3) ...
+Setting up ttf-mscorefonts-installer (3.8.1) ...
+
+These fonts were provided by Microsoft "in the interest of cross-
+platform compatibility".  This is no longer the case, but they are
+still available from third parties.
+
+You are free to download these fonts and use them for your own use,
+but you may not redistribute them in modified form, including changes
+to the file name or packaging format.
+
+--2024-02-18 13:36:23--  https://downloads.sourceforge.net/corefonts/andale32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [following]
+--2024-02-18 13:36:23--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [following]
+--2024-02-18 13:36:25--  https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe
+Resolving cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)... 146.71.73.6
+Connecting to cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)|146.71.73.6|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 198384 (194K) [application/octet-stream]
+Saving to: ‘./andale32.exe’
+
+     0K .......... .......... .......... .......... .......... 25%  908K 0s
+    50K .......... .......... .......... .......... .......... 51%  992K 0s
+   100K .......... .......... .......... .......... .......... 77% 5.34M 0s
+   150K .......... .......... .......... .......... ...       100% 5.21M=0.1s
+
+2024-02-18 13:36:26 (1.54 MB/s) - ‘./andale32.exe’ saved [198384/198384]
+
+--2024-02-18 13:36:26--  https://downloads.sourceforge.net/corefonts/arialb32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe [following]
+--2024-02-18 13:36:27--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe [following]
+--2024-02-18 13:36:29--  https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe
+Resolving cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)... 146.71.73.6
+Connecting to cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)|146.71.73.6|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 168176 (164K) [application/octet-stream]
+Saving to: ‘./arialb32.exe’
+
+     0K .......... .......... .......... .......... .......... 30%  844K 0s
+    50K .......... .......... .......... .......... .......... 60% 1.11M 0s
+   100K .......... .......... .......... .......... .......... 91% 4.06M 0s
+   150K .......... ....                                       100% 13.1M=0.1s
+
+2024-02-18 13:36:30 (1.38 MB/s) - ‘./arialb32.exe’ saved [168176/168176]
+
+--2024-02-18 13:36:30--  https://downloads.sourceforge.net/corefonts/arial32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe [following]
+--2024-02-18 13:36:31--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://zenlayer.dl.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe [following]
+--2024-02-18 13:36:33--  https://zenlayer.dl.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe
+Resolving zenlayer.dl.sourceforge.net (zenlayer.dl.sourceforge.net)... 98.98.48.225
+Connecting to zenlayer.dl.sourceforge.net (zenlayer.dl.sourceforge.net)|98.98.48.225|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 554208 (541K) [application/octet-stream]
+Saving to: ‘./arial32.exe’
+
+     0K .......... .......... .......... .......... ..........  9%  209K 2s
+    50K .......... .......... .......... .......... .......... 18%  220K 2s
+   100K .......... .......... .......... .......... .......... 27% 5.40M 1s
+   150K .......... .......... .......... .......... .......... 36%  237K 1s
+   200K .......... .......... .......... .......... .......... 46% 3.00M 1s
+   250K .......... .......... .......... .......... .......... 55% 5.45M 1s
+   300K .......... .......... .......... .......... .......... 64% 11.7M 0s
+   350K .......... .......... .......... .......... .......... 73% 9.26M 0s
+   400K .......... .......... .......... .......... .......... 83%  239K 0s
+   450K .......... .......... .......... .......... .......... 92% 9.77M 0s
+   500K .......... .......... .......... .......... .         100% 7.49M=0.9s
+
+2024-02-18 13:36:35 (576 KB/s) - ‘./arial32.exe’ saved [554208/554208]
+
+--2024-02-18 13:36:35--  https://downloads.sourceforge.net/corefonts/comic32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe [following]
+--2024-02-18 13:36:36--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe [following]
+--2024-02-18 13:36:38--  https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe
+Resolving cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)... 146.71.73.6
+Connecting to cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)|146.71.73.6|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 246008 (240K) [application/octet-stream]
+Saving to: ‘./comic32.exe’
+
+     0K .......... .......... .......... .......... .......... 20%  856K 0s
+    50K .......... .......... .......... .......... .......... 41% 1.07M 0s
+   100K .......... .......... .......... .......... .......... 62% 4.43M 0s
+   150K .......... .......... .......... .......... .......... 83% 1.51M 0s
+   200K .......... .......... .......... ..........           100% 3.55M=0.2s
+
+2024-02-18 13:36:38 (1.48 MB/s) - ‘./comic32.exe’ saved [246008/246008]
+
+--2024-02-18 13:36:38--  https://downloads.sourceforge.net/corefonts/courie32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe [following]
+--2024-02-18 13:36:40--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cytranet.dl.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe [following]
+--2024-02-18 13:36:42--  https://cytranet.dl.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe
+Resolving cytranet.dl.sourceforge.net (cytranet.dl.sourceforge.net)... 162.251.237.20
+Connecting to cytranet.dl.sourceforge.net (cytranet.dl.sourceforge.net)|162.251.237.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 646368 (631K) [application/octet-stream]
+Saving to: ‘./courie32.exe’
+
+     0K .......... .......... .......... .......... ..........  7%  348K 2s
+    50K .......... .......... .......... .......... .......... 15%  781K 1s
+   100K .......... .......... .......... .......... .......... 23% 2.67M 1s
+   150K .......... .......... .......... .......... .......... 31% 9.60M 0s
+   200K .......... .......... .......... .......... .......... 39%  780K 0s
+   250K .......... .......... .......... .......... .......... 47% 5.18M 0s
+   300K .......... .......... .......... .......... .......... 55% 5.62M 0s
+   350K .......... .......... .......... .......... .......... 63% 7.97M 0s
+   400K .......... .......... .......... .......... .......... 71% 1.20M 0s
+   450K .......... .......... .......... .......... .......... 79% 3.84M 0s
+   500K .......... .......... .......... .......... .......... 87% 12.6M 0s
+   550K .......... .......... .......... .......... .......... 95%  194K 0s
+   600K .......... .......... .......... .                    100% 11.3M=0.6s
+
+2024-02-18 13:36:43 (990 KB/s) - ‘./courie32.exe’ saved [646368/646368]
+
+--2024-02-18 13:36:43--  https://downloads.sourceforge.net/corefonts/georgi32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe [following]
+--2024-02-18 13:36:44--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://gigenet.dl.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe [following]
+--2024-02-18 13:36:46--  https://gigenet.dl.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe
+Resolving gigenet.dl.sourceforge.net (gigenet.dl.sourceforge.net)... 69.65.16.142
+Connecting to gigenet.dl.sourceforge.net (gigenet.dl.sourceforge.net)|69.65.16.142|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 392440 (383K) [application/octet-stream]
+Saving to: ‘./georgi32.exe’
+
+     0K .......... .......... .......... .......... .......... 13% 1.35M 0s
+    50K .......... .......... .......... .......... .......... 26%  989K 0s
+   100K .......... .......... .......... .......... .......... 39% 11.7M 0s
+   150K .......... .......... .......... .......... .......... 52% 1.41M 0s
+   200K .......... .......... .......... .......... .......... 65% 11.7M 0s
+   250K .......... .......... .......... .......... .......... 78% 11.6M 0s
+   300K .......... .......... .......... .......... .......... 91% 2.65M 0s
+   350K .......... .......... .......... ...                  100% 5.30M=0.2s
+
+2024-02-18 13:36:46 (2.36 MB/s) - ‘./georgi32.exe’ saved [392440/392440]
+
+--2024-02-18 13:36:46--  https://downloads.sourceforge.net/corefonts/impact32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe [following]
+--2024-02-18 13:36:48--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe [following]
+--2024-02-18 13:36:50--  https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe
+Resolving psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)... 208.87.241.191
+Connecting to psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)|208.87.241.191|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 173288 (169K) [application/octet-stream]
+Saving to: ‘./impact32.exe’
+
+     0K .......... .......... .......... .......... .......... 29%  346K 0s
+    50K .......... .......... .......... .......... .......... 59% 10.8M 0s
+   100K .......... .......... .......... .......... .......... 88%  707K 0s
+   150K .......... .........                                  100% 18.6M=0.2s
+
+2024-02-18 13:36:50 (767 KB/s) - ‘./impact32.exe’ saved [173288/173288]
+
+--2024-02-18 13:36:50--  https://downloads.sourceforge.net/corefonts/times32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe [following]
+--2024-02-18 13:36:52--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe [following]
+--2024-02-18 13:36:54--  https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe
+Resolving cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)... 146.71.73.6
+Connecting to cfhcable.dl.sourceforge.net (cfhcable.dl.sourceforge.net)|146.71.73.6|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 661728 (646K) [application/octet-stream]
+Saving to: ‘./times32.exe’
+
+     0K .......... .......... .......... .......... ..........  7%  854K 1s
+    50K .......... .......... .......... .......... .......... 15% 1.04M 1s
+   100K .......... .......... .......... .......... .......... 23% 4.73M 0s
+   150K .......... .......... .......... .......... .......... 30%  556K 0s
+   200K .......... .......... .......... .......... .......... 38% 29.4M 0s
+   250K .......... .......... .......... .......... .......... 46% 31.5M 0s
+   300K .......... .......... .......... .......... .......... 54% 31.3M 0s
+   350K .......... .......... .......... .......... .......... 61% 3.90M 0s
+   400K .......... .......... .......... .......... .......... 69% 11.7M 0s
+   450K .......... .......... .......... .......... .......... 77% 1.14M 0s
+   500K .......... .......... .......... .......... .......... 85% 6.08M 0s
+   550K .......... .......... .......... .......... .......... 92% 1.62M 0s
+   600K .......... .......... .......... .......... ......    100% 3.05M=0.3s
+
+2024-02-18 13:36:54 (1.96 MB/s) - ‘./times32.exe’ saved [661728/661728]
+
+--2024-02-18 13:36:54--  https://downloads.sourceforge.net/corefonts/trebuc32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe [following]
+--2024-02-18 13:36:56--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe [following]
+--2024-02-18 13:36:58--  https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe
+Resolving psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)... 208.87.241.191
+Connecting to psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)|208.87.241.191|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 357200 (349K) [application/octet-stream]
+Saving to: ‘./trebuc32.exe’
+
+     0K .......... .......... .......... .......... .......... 14%  345K 1s
+    50K .......... .......... .......... .......... .......... 28% 10.4M 0s
+   100K .......... .......... .......... .......... .......... 43%  706K 0s
+   150K .......... .......... .......... .......... .......... 57% 10.1M 0s
+   200K .......... .......... .......... .......... .......... 71%  875K 0s
+   250K .......... .......... .......... .......... .......... 86% 3.89M 0s
+   300K .......... .......... .......... .......... ........  100% 11.2M=0.3s
+
+2024-02-18 13:36:58 (1.14 MB/s) - ‘./trebuc32.exe’ saved [357200/357200]
+
+--2024-02-18 13:36:58--  https://downloads.sourceforge.net/corefonts/verdan32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe [following]
+--2024-02-18 13:37:00--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://zenlayer.dl.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe [following]
+--2024-02-18 13:37:02--  https://zenlayer.dl.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe
+Resolving zenlayer.dl.sourceforge.net (zenlayer.dl.sourceforge.net)... 98.98.48.225
+Connecting to zenlayer.dl.sourceforge.net (zenlayer.dl.sourceforge.net)|98.98.48.225|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 351992 (344K) [application/octet-stream]
+Saving to: ‘./verdan32.exe’
+
+     0K .......... .......... .......... .......... .......... 14%  209K 1s
+    50K .......... .......... .......... .......... .......... 29% 93.5K 2s
+   100K .......... .......... .......... .......... .......... 43% 9.01M 1s
+   150K .......... .......... .......... .......... .......... 58%  214K 1s
+   200K .......... .......... .......... .......... .......... 72%  215K 0s
+   250K .......... .......... .......... .......... .......... 87% 8.47M 0s
+   300K .......... .......... .......... .......... ...       100%  189K=1.5s
+
+2024-02-18 13:37:04 (232 KB/s) - ‘./verdan32.exe’ saved [351992/351992]
+
+--2024-02-18 13:37:04--  https://downloads.sourceforge.net/corefonts/webdin32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 204.68.111.105
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|204.68.111.105|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe [following]
+--2024-02-18 13:37:05--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://zenlayer.dl.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe [following]
+--2024-02-18 13:37:07--  https://zenlayer.dl.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe
+Resolving zenlayer.dl.sourceforge.net (zenlayer.dl.sourceforge.net)... 98.98.48.225
+Connecting to zenlayer.dl.sourceforge.net (zenlayer.dl.sourceforge.net)|98.98.48.225|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 185072 (181K) [application/octet-stream]
+Saving to: ‘./webdin32.exe’
+
+     0K .......... .......... .......... .......... .......... 27%  212K 1s
+    50K .......... .......... .......... .......... .......... 55%  218K 0s
+   100K .......... .......... .......... .......... .......... 82% 5.02M 0s
+   150K .......... .......... ..........                      100% 20.6K=2.0s
+
+2024-02-18 13:37:10 (92.0 KB/s) - ‘./webdin32.exe’ saved [185072/185072]
+
+andale32.exe: OK
+Extracting cabinet: andale32.exe
+  extracting fontinst.inf
+  extracting andale.inf
+  extracting fontinst.exe
+  extracting AndaleMo.TTF
+  extracting ADVPACK.DLL
+  extracting W95INF32.DLL
+  extracting W95INF16.DLL
+
+All done, no errors.
+arialb32.exe: OK
+Extracting cabinet: arialb32.exe
+  extracting fontinst.exe
+  extracting fontinst.inf
+  extracting AriBlk.TTF
+
+All done, no errors.
+arial32.exe: OK
+Extracting cabinet: arial32.exe
+  extracting FONTINST.EXE
+  extracting fontinst.inf
+  extracting Ariali.TTF
+  extracting Arialbd.TTF
+  extracting Arialbi.TTF
+  extracting Arial.TTF
+
+All done, no errors.
+comic32.exe: OK
+Extracting cabinet: comic32.exe
+  extracting fontinst.inf
+  extracting Comicbd.TTF
+  extracting Comic.TTF
+  extracting fontinst.exe
+
+All done, no errors.
+courie32.exe: OK
+Extracting cabinet: courie32.exe
+  extracting cour.ttf
+  extracting courbd.ttf
+  extracting courbi.ttf
+  extracting fontinst.inf
+  extracting couri.ttf
+  extracting fontinst.exe
+
+All done, no errors.
+georgi32.exe: OK
+Extracting cabinet: georgi32.exe
+  extracting fontinst.inf
+  extracting Georgiaz.TTF
+  extracting Georgiab.TTF
+  extracting Georgiai.TTF
+  extracting Georgia.TTF
+  extracting fontinst.exe
+
+All done, no errors.
+impact32.exe: OK
+Extracting cabinet: impact32.exe
+  extracting fontinst.exe
+  extracting Impact.TTF
+  extracting fontinst.inf
+
+All done, no errors.
+times32.exe: OK
+Extracting cabinet: times32.exe
+  extracting fontinst.inf
+  extracting Times.TTF
+  extracting Timesbd.TTF
+  extracting Timesbi.TTF
+  extracting Timesi.TTF
+  extracting FONTINST.EXE
+
+All done, no errors.
+trebuc32.exe: OK
+Extracting cabinet: trebuc32.exe
+  extracting FONTINST.EXE
+  extracting trebuc.ttf
+  extracting Trebucbd.ttf
+  extracting trebucbi.ttf
+  extracting trebucit.ttf
+  extracting fontinst.inf
+
+All done, no errors.
+verdan32.exe: OK
+Extracting cabinet: verdan32.exe
+  extracting fontinst.exe
+  extracting fontinst.inf
+  extracting Verdanab.TTF
+  extracting Verdanai.TTF
+  extracting Verdanaz.TTF
+  extracting Verdana.TTF
+
+All done, no errors.
+webdin32.exe: OK
+Extracting cabinet: webdin32.exe
+  extracting fontinst.exe
+  extracting Webdings.TTF
+  extracting fontinst.inf
+  extracting Licen.TXT
+
+All done, no errors.
+All fonts downloaded and installed.
+Processing triggers for libc-bin (2.36-9+rpt2+deb12u4) ...
+Processing triggers for man-db (2.11.2-2) ...
+Processing triggers for fontconfig (2.14.1-4) ...

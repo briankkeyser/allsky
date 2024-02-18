@@ -1,0 +1,14 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting skyfield
+  Downloading https://www.piwheels.org/simple/skyfield/skyfield-1.48-py3-none-any.whl (453 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 453.9/453.9 kB 1.2 MB/s eta 0:00:00
+Requirement already satisfied: certifi>=2017.4.17 in /usr/lib/python3/dist-packages (from skyfield->-r /tmp/package (line 1)) (2022.9.24)
+Collecting jplephem>=2.13
+  Downloading https://www.piwheels.org/simple/jplephem/jplephem-2.21-py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.7/47.7 kB 2.7 MB/s eta 0:00:00
+Requirement already satisfied: numpy in ./venv/lib/python3.11/site-packages (from skyfield->-r /tmp/package (line 1)) (1.26.4)
+Collecting sgp4>=2.2
+  Downloading sgp4-2.23-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (232 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.9/232.9 kB 3.5 MB/s eta 0:00:00
+Installing collected packages: sgp4, jplephem, skyfield
+Successfully installed jplephem-2.21 sgp4-2.23 skyfield-1.48

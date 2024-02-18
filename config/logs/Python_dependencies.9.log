@@ -1,0 +1,6 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting paho-mqtt
+  Downloading https://www.piwheels.org/simple/paho-mqtt/paho_mqtt-2.0.0-py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.9/66.9 kB 481.1 kB/s eta 0:00:00
+Installing collected packages: paho-mqtt
+Successfully installed paho-mqtt-2.0.0

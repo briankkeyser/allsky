@@ -1,0 +1,35 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting photutils
+  Downloading photutils-1.11.0.tar.gz (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 5.5 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.22 in ./venv/lib/python3.11/site-packages (from photutils->-r /tmp/package (line 1)) (1.26.4)
+Collecting astropy>=5.1
+  Downloading astropy-6.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (10.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 5.2 MB/s eta 0:00:00
+Collecting pyerfa>=2.0
+  Downloading pyerfa-2.0.1.1-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (693 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 693.7/693.7 kB 5.2 MB/s eta 0:00:00
+Collecting astropy-iers-data>=0.2023.10.30.0.29.53
+  Downloading https://www.piwheels.org/simple/astropy-iers-data/astropy_iers_data-0.2024.2.12.0.31.0-py3-none-any.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 2.8 MB/s eta 0:00:00
+Collecting PyYAML>=3.13
+  Downloading PyYAML-6.0.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (732 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 732.2/732.2 kB 4.4 MB/s eta 0:00:00
+Collecting packaging>=19.0
+  Using cached https://www.piwheels.org/simple/packaging/packaging-23.2-py3-none-any.whl (53 kB)
+Building wheels for collected packages: photutils
+  Building wheel for photutils (pyproject.toml): started
+  Building wheel for photutils (pyproject.toml): finished with status 'done'
+  Created wheel for photutils: filename=photutils-1.11.0-cp311-cp311-linux_aarch64.whl size=1013801 sha256=ed0731407e68c96ec3071f768db1478011940b9d7b47caceb7ad6be814f54798
+  Stored in directory: /home/brian/.cache/pip/wheels/e1/64/7e/6796c684357f8b619e4f2cc215b014cd4b83c66f293bdbe2ec
+Successfully built photutils
+Installing collected packages: PyYAML, pyerfa, packaging, astropy-iers-data, astropy, photutils
+Successfully installed PyYAML-6.0.1 astropy-6.0.0 astropy-iers-data-0.2024.2.12.0.31.0 packaging-23.2 photutils-1.11.0 pyerfa-2.0.1.1

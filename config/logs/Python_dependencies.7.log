@@ -1,0 +1,6 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting pytz
+  Downloading https://www.piwheels.org/simple/pytz/pytz-2024.1-py3-none-any.whl (505 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 kB 882.5 kB/s eta 0:00:00
+Installing collected packages: pytz
+Successfully installed pytz-2024.1

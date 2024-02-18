@@ -1,0 +1,1 @@
+info	February 18,  1:50:31 pm EST	1	After you've configured Allsky, run:<br>&nbsp; &nbsp; &nbsp; check_allsky.sh<br>to check for any issues.&nbsp;&nbsp;You can also run it whenever you make changes.

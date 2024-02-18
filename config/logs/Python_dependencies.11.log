@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Requirement already satisfied: astropy in ./venv/lib/python3.11/site-packages (from -r /tmp/package (line 1)) (6.0.0)
+Requirement already satisfied: numpy<2,>=1.22 in ./venv/lib/python3.11/site-packages (from astropy->-r /tmp/package (line 1)) (1.26.4)
+Requirement already satisfied: pyerfa>=2.0 in ./venv/lib/python3.11/site-packages (from astropy->-r /tmp/package (line 1)) (2.0.1.1)
+Requirement already satisfied: astropy-iers-data>=0.2023.10.30.0.29.53 in ./venv/lib/python3.11/site-packages (from astropy->-r /tmp/package (line 1)) (0.2024.2.12.0.31.0)
+Requirement already satisfied: PyYAML>=3.13 in ./venv/lib/python3.11/site-packages (from astropy->-r /tmp/package (line 1)) (6.0.1)
+Requirement already satisfied: packaging>=19.0 in ./venv/lib/python3.11/site-packages (from astropy->-r /tmp/package (line 1)) (23.2)
