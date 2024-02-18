@@ -11,7 +11,7 @@
 
 ########## Images
 # Set to "true" to upload the current image to your website.
-IMG_UPLOAD="false"
+IMG_UPLOAD="true"
 
 # Upload the image file as "image-YYYYMMDDHHMMSS.jpg" (true) or "image.jpg" (false).
 IMG_UPLOAD_ORIGINAL_NAME="false"
@@ -81,7 +81,7 @@ KEEP_SEQUENCE="false"
 TIMELAPSE_EXTRA_PARAMETERS=""
 
 # Set to "true" to upload the timelapse video to your website at the end of each night.
-UPLOAD_VIDEO="false"
+UPLOAD_VIDEO="true"
 
 # Set to "true" to upload the timelapse video's thumbnail to your website at the end of each night.
 TIMELAPSE_UPLOAD_THUMBNAIL="true"
@@ -115,7 +115,7 @@ KEOGRAM="true"
 KEOGRAM_EXTRA_PARAMETERS="--font-size 1.0 --font-line 1 --font-color '255 255 255'"
 
 # Set to "true" to upload the keogram image to your website at the end of each night.
-UPLOAD_KEOGRAM="false"
+UPLOAD_KEOGRAM="true"
 
 
 ########## Startrails
@@ -130,7 +130,7 @@ BRIGHTNESS_THRESHOLD=0.1
 STARTRAILS_EXTRA_PARAMETERS=""
 
 # Set to "true" to upload the startrails image to your website at the end of each night.
-UPLOAD_STARTRAILS="false"
+UPLOAD_STARTRAILS="true"
 
 
 ########## Other

@@ -1,0 +1,207 @@
+ALLSKY_ABORTEDSAVEIMAGE                           saveImage.txt
+ALLSKY_ABORTEDTIMELAPSE                           timelapse.txt
+ALLSKY_ABORTEDUPLOADS                             uploads.txt
+ALLSKY_ABORTS_DIR                                 /home/brian/allsky/tmp/aborts
+ALLSKY_BAD_IMAGE_COUNT                            /home/brian/allsky/tmp/bad_image_count.txt
+ALLSKY_BIN                                        /home/brian/allsky/bin
+ALLSKY_CONFIG                                     /home/brian/allsky/config
+ALLSKY_DARKS                                      /home/brian/allsky/darks
+ALLSKY_DEBUG_LEVEL                                1
+ALLSKY_DOCUMENTATION                              /home/brian/allsky/html/documentation
+ALLSKY_EXTRA                                      /home/brian/allsky/config/overlay/extra
+ALLSKY_FLOWTIMINGS                                /home/brian/allsky/tmp/flowtimings
+ALLSKY_FLOWTIMINGS_DAY                            /home/brian/allsky/tmp/flowtimings/day-average
+ALLSKY_FLOWTIMINGS_NIGHT                          /home/brian/allsky/tmp/flowtimings/night-average
+ALLSKY_GROUP                                      brian
+ALLSKY_HOME                                       /home/brian/allsky
+ALLSKY_IMAGES                                     /home/brian/allsky/images
+ALLSKY_INSTALLATION_LOGS                          /home/brian/allsky/config/logs
+ALLSKY_INSTALL_DIR                                allsky
+ALLSKY_LOG                                        /var/log/allsky.log
+ALLSKY_MESSAGES                                   /home/brian/allsky/config/messages.txt
+ALLSKY_MODULES                                    /home/brian/allsky/config/modules
+ALLSKY_MODULE_LOCATION                            /opt/allsky
+ALLSKY_NOTIFICATION_IMAGES                        /home/brian/allsky/notification_images
+ALLSKY_NOTIFICATION_LOG                           /home/brian/allsky/tmp/notification_log.txt
+ALLSKY_OVERLAY                                    /home/brian/allsky/config/overlay
+ALLSKY_OWNER                                      brian
+ALLSKY_PERIODIC_LOG                               /var/log/allskyperiodic.log
+ALLSKY_PYTHON_VENV                                /home/brian/allsky/venv
+ALLSKY_REBOOT_NEEDED                              /home/brian/allsky/tmp/reboot_needed.txt
+ALLSKY_REMOTE_WEBSITE_CONFIGURATION_FILE          /home/brian/allsky/config/remote_configuration.json
+ALLSKY_REMOTE_WEBSITE_CONFIGURATION_NAME          remote_configuration.json
+ALLSKY_REPO                                       /home/brian/allsky/config_repo
+ALLSKY_SCRIPTS                                    /home/brian/allsky/scripts
+ALLSKY_TIMELAPSE_PID_FILE                         /home/brian/allsky/tmp/timelapse-pid.txt
+ALLSKY_TMP                                        /home/brian/allsky/tmp
+ALLSKY_VARIABLE_SET                               true
+ALLSKY_VERSION                                    v2023.05.01_04
+ALLSKY_VERSION_FILE                               /home/brian/allsky/version
+ALLSKY_WEBSITE                                    /home/brian/allsky/html/allsky
+ALLSKY_WEBSITE_BRANCH_FILE                        /home/brian/allsky/html/allsky/branch
+ALLSKY_WEBSITE_CONFIGURATION_FILE                 /home/brian/allsky/html/allsky/configuration.json
+ALLSKY_WEBSITE_CONFIGURATION_NAME                 configuration.json
+ALLSKY_WEBSITE_VERSION_FILE                       /home/brian/allsky/html/allsky/version
+ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY             /home/brian/allsky/html/allsky/viewSettings
+ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY_NAME        viewSettings
+ALLSKY_WEBUI                                      /home/brian/allsky/html
+ARGS_FILE                                         /home/brian/allsky/tmp/capture_args.txt
+AS_AUTOEXPOSURE                                   1
+AS_AUTOGAIN                                       0
+AS_AUTOWB                                         0
+AS_BAD_IMAGES_MEAN                                0.494008
+AS_BIN                                            1
+AS_BIT_DEPTH                                      0
+AS_BRIGHTNESS                                     0
+AS_CAMERA_MODEL                                   HQ
+AS_CAMERA_TYPE                                    RPi
+AS_DARKFRAME                                      0
+AS_DATE                                           20240218
+AS_EXPOSURE_US                                    23067308
+AS_FLIP                                           none
+AS_FULLMEAN                                       0.512375
+AS_GAIN                                           1
+AS_MEAN                                           0.498138
+AS_MEAN_NORMALIZED                                125.972040
+AS_TIME                                           150131
+AS_WBB                                            2
+AS_WBR                                            2.500000
+AS_eOVERLAY                                       1
+AS_sAUTOAWB                                       
+AS_sAUTOEXPOSURE                                  (auto)
+AS_sAUTOGAIN                                      
+AS_sEXPOSURE                                      23.1 sec
+AUTO_STRETCH                                      false
+AUTO_STRETCH_AMOUNT                               10
+AUTO_STRETCH_MID_POINT                            10%
+BRIGHTNESS_THRESHOLD                              0.1
+CAMERA_MODEL                                      HQ
+CAMERA_TYPE                                       RPi
+CAPTURE                                           capture_RPi
+CAPTURE_SAVE_DIR                                  /home/brian/allsky/tmp
+CC_FILE                                           /home/brian/allsky/config/cc.json
+CONFIG_SH_VERSION                                 1
+CROP_HEIGHT                                       480
+CROP_IMAGE                                        false
+CROP_OFFSET_X                                     0
+CROP_OFFSET_Y                                     0
+CROP_WIDTH                                        640
+CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240218150131.jpg
+DATE_NAME                                         20240218
+DAYS_TO_KEEP                                      14
+DAY_OR_NIGHT                                      DAY
+EXIT_ERROR_STOP                                   100
+EXIT_NO_CAMERA                                    101
+EXIT_OK                                           0
+EXIT_RESET_USB                                    99
+EXIT_RESTARTING                                   98
+EXTENSION                                         jpg
+FFLOG                                             warning
+FILENAME                                          image
+FPS                                               25
+FREQUENCY_FILE                                    /home/brian/allsky/tmp/IMG_UPLOAD_FREQUENCY.txt
+FULL_FILENAME                                     image.jpg
+GITHUB_ALLSKY_PACKAGE                             allsky
+GITHUB_MAIN_BRANCH                                master
+GITHUB_RAW_ROOT                                   https://raw.githubusercontent.com/AllskyTeam
+GITHUB_ROOT                                       https://github.com/AllskyTeam
+GITHUB_WEBSITE_PACKAGE                            allsky-website
+GREEN                                             
+HOME                                              /home/brian
+IMG_CREATE_THUMBNAILS                             true
+IMG_DIR                                           current/tmp
+IMG_HEIGHT                                        1520
+IMG_RESIZE                                        false
+IMG_UPLOAD                                        false
+IMG_UPLOAD_FREQUENCY                              1
+IMG_UPLOAD_ORIGINAL_NAME                          false
+IMG_WIDTH                                         2028
+INVOCATION_ID                                     0b1de5fc385548eb92f4fdd3d63f23b9
+JOURNAL_STREAM                                    8:32384
+KEEP_SEQUENCE                                     false
+KEOGRAM                                           true
+KEOGRAM_EXTRA_PARAMETERS                          --font-size 1.0 --font-line 1 --font-color '255 255 255'
+LANG                                              en_GB.UTF-8
+LAST_CHANGED                                      2024-02-18 19:48:37
+LD_LIBRARY_PATH                                   /home/brian/allsky/venv/lib/python3.11/site-packages/cv2/../../lib64:
+LOCALE                                            en_GB.UTF-8
+LOGNAME                                           brian
+ME2                                               config.sh
+MSG                                               
+NC                                                
+NEEDS_REBOOT                                      false
+NO_LINK_                                          3
+OLDPWD                                            /
+OLD_WEBSITE_LOCATION                              /var/www/html/allsky
+OLD_WEBUI_LOCATION                                /var/www/html
+ON_TTY                                            0
+OPTIONS_FILE                                      /home/brian/allsky/config/options.json
+PATH                                              /home/brian/allsky/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PIX_FMT                                           yuv420p
+PI_OS                                             bookworm
+POST_INSTALLATION_ACTIONS                         /home/brian/allsky/config/logs/post-installation_actions.txt
+PRIOR_ALLSKY_DIR                                  /home/brian/allsky-OLD
+PS1                                               (venv) 
+PWD                                               /home/brian/allsky
+PYTHON_VENV_ACTIVATED                             true
+QT_QPA_FONTDIR                                    /home/brian/allsky/venv/lib/python3.11/site-packages/cv2/qt/fonts
+QT_QPA_PLATFORM_PLUGIN_PATH                       /home/brian/allsky/venv/lib/python3.11/site-packages/cv2/qt/plugins
+RED                                               
+REMOVE_BAD_IMAGES                                 true
+REMOVE_BAD_IMAGES_THRESHOLD_HIGH                  90
+REMOVE_BAD_IMAGES_THRESHOLD_LOW                   1
+REPO_WEBCONFIG_FILE                               /home/brian/allsky/config_repo/configuration.json.repo
+RESIZE_UPLOADS                                    false
+RESIZE_UPLOADS_HEIGHT                             720
+RESIZE_UPLOADS_WIDTH                              962
+RPi_COMMAND_TO_USE                                libcamera-still
+SEE_LOG_MSG                                       See /var/log/allsky.log
+SETTINGS_FILE                                     /home/brian/allsky/config/settings.json
+SHELL                                             /bin/bash
+SHLVL                                             2
+STARTRAILS                                        true
+STARTRAILS_EXTRA_PARAMETERS                       
+SYSTEMD_EXEC_PID                                  8632
+TAB                                               	
+THUMBNAIL_SIZE_X                                  100
+THUMBNAIL_SIZE_Y                                  75
+TIMELAPSE                                         true
+TIMELAPSEHEIGHT                                   0
+TIMELAPSEWIDTH                                    0
+TIMELAPSE_BITRATE                                 5000k
+TIMELAPSE_EXTRA_PARAMETERS                        
+TIMELAPSE_MINI_BITRATE                            2000k
+TIMELAPSE_MINI_FORCE_CREATION                     false
+TIMELAPSE_MINI_FPS                                5
+TIMELAPSE_MINI_FREQUENCY                          5
+TIMELAPSE_MINI_HEIGHT                             760
+TIMELAPSE_MINI_IMAGES                             0
+TIMELAPSE_MINI_UPLOAD_THUMBNAIL                   false
+TIMELAPSE_MINI_UPLOAD_VIDEO                       false
+TIMELAPSE_MINI_WIDTH                              1014
+TIMELAPSE_UPLOAD_THUMBNAIL                        true
+UHUBCTL_PATH                                      
+UHUBCTL_PORT                                      2
+UPLOAD_KEOGRAM                                    false
+UPLOAD_STARTRAILS                                 false
+UPLOAD_VIDEO                                      false
+USER                                              brian
+USE_NOTIFICATION_IMAGES                           1
+VCODEC                                            libx264
+VIRTUAL_ENV                                       /home/brian/allsky/venv
+VIRTUAL_ENV_PROMPT                                (venv) 
+WEBSERVER_GROUP                                   www-data
+WEBUI_DATA_FILES                                  
+WEB_DAYS_TO_KEEP                                  0
+YELLOW                                            
+_                                                 /home/brian/allsky/venv/bin/python3
+_OLD_VIRTUAL_PS1                                  
+cDEBUG                                            
+wBOLD                                             <b>
+wBR                                               <br>
+wDEBUG                                            <span style='color: #FF9800'>
+wERROR                                            <span style='color: red'>
+wNBOLD                                            </b>
+wNC                                               </span>
+wOK                                               <span style='color: green'>
+wWARNING                                          <span style='color: #FF9800'>

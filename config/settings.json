@@ -57,8 +57,8 @@
     "useLogin": "1",
     "overlayMethod": "0",
     "showTime": "1",
-    "showTemp": "1",
-    "temptype": "C",
+    "showTemp": "0",
+    "temptype": "F",
     "showExposure": "1",
     "showGain": "0",
     "showBrightness": "0",
@@ -70,7 +70,7 @@
     "textlineheight": "30",
     "textx": "15",
     "texty": "35",
-    "fontname": "0",
+    "fontname": "1",
     "fontcolor": "255 0 0",
     "smallfontcolor": "0 0 255",
     "fonttype": "0",
@@ -84,9 +84,9 @@
     "location": "",
     "owner": "",
     "camera": "RPi HQ",
-    "lens": "",
-    "computer": "",
+    "lens": "180",
+    "computer": "Raspberry Pi4, 8gb",
     "cameraType": "RPi",
     "cameraModel": "HQ",
-    "lastChanged": "2024-02-18 19:00:26"
+    "lastChanged": "2024-02-18 21:52:18"
 }

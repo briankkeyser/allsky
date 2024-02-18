@@ -1,0 +1,21 @@
+* STARTING INSTALLATON AT Sun 18 Feb 15:56:44 EST 2024.
+
+* GITHUB_MAIN_BRANCH_NEW_VERSION=v2023.05.01
+* Remaining on 'master' branch.
+* Setting Website variables.
+* Downloading Allsky Website files into /home/brian/allsky/html/allsky.
+* Modifying locations in web files.
+* Creating default '/home/brian/allsky/html/allsky/configuration.json' file.
+  DEBUG: Calling updateWebsiteConfig.sh
+* Uploading initial files to local Website(s).
+* Setting ownership and permissions.
+
+* Before using the website you must edit its configuration by clicking on
+the 'Editor' link in the WebUI, then select the
+    configuration.json (local Allsky Website)
+entry.  See the 'Installation --> Allsky Website' documentation
+page for more information.
+
+
+* ENDING INSTALLATON AT Sun 18 Feb 15:56:47 EST 2024.
+

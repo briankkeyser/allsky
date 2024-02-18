@@ -11,24 +11,24 @@
 
 
 	# How will files be uploaded?
-PROTOCOL=""
+PROTOCOL="local"
 
 	# The directory where the current image should be copied to.
-IMAGE_DIR=""
+IMAGE_DIR="${ALLSKY_WEBSITE}"
 WEB_IMAGE_DIR=""
 
 	# The directory where the timelapse video should be uploaded to.
-VIDEOS_DIR=""
+VIDEOS_DIR="${$MAGE_DIR}/videos"
 VIDEOS_DESTINATION_NAME=""
 WEB_VIDEOS_DIR=""
 
 	# The directory where the keogram image should be copied to.
-KEOGRAM_DIR=""
+KEOGRAM_DIR="${$MAGE_DIR}/keograms"
 KEOGRAM_DESTINATION_NAME=""
 WEB_KEOGRAM_DIR=""
 
 	# The directory where the startrails image should be copied to.
-STARTRAILS_DIR=""
+STARTRAILS_DIR="${$MAGE_DIR}/startrails"
 STARTRAILS_DESTINATION_NAME=""
 WEB_STARTRAILS_DIR=""
 

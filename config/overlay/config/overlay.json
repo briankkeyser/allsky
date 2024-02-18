@@ -2,39 +2,36 @@
     "fields": [
         {
             "label": "${DATE} ${TIME}",
-            "x": 330,
-            "y": 50,
+            "x": 268.91015625,
+            "y": 48,
             "id": "oe-field-0",
             "format": "%d-%m-%Y,%H:%M:%S",
             "strokewidth": 0,
             "sample": "DATE,TIME",
-            "tlx": 10,
-            "tly": 10,
-            "font": "Arial",
-            "fontsize": 80,
+            "tlx": 20,
+            "tly": 20,
+            "font": "Arial Black",
+            "fontsize": 60,
             "fill": "#ff0000"
         },
         {
             "label": "Exposure: ${sEXPOSURE}",
-            "x": 421,
-            "y": 124,
+            "x": 333.599609375,
+            "y": 154,
             "id": "oe-field-1",
-            "font": "Arial",
-            "fontsize": 68,
             "strokewidth": 0,
-            "tlx": 10,
-            "tly": 90
+            "tlx": 20,
+            "tly": 128
         },
         {
             "label": "Gain: ${GAIN}",
-            "x": 226,
-            "y": 194,
+            "x": 172.0859375,
+            "y": 254,
             "id": "oe-field-2",
-            "font": "Arial",
-            "fontsize": 68,
+            "fontsize": 48,
             "strokewidth": 0,
-            "tlx": 10,
-            "tly": 160
+            "tlx": 20,
+            "tly": 230
         },
         {
             "label": "${CAMERA_TYPE} ${CAMERA_MODEL}",
