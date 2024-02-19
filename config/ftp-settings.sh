@@ -14,21 +14,21 @@
 PROTOCOL="local"
 
 	# The directory where the current image should be copied to.
-IMAGE_DIR="${ALLSKY_WEBSITE}"
+IMAGE_DIR="/home/brian/allsky/html/allsky/"
 WEB_IMAGE_DIR=""
 
 	# The directory where the timelapse video should be uploaded to.
-VIDEOS_DIR="${$MAGE_DIR}/videos"
+VIDEOS_DIR="/home/brian/allsky/html/allsky/videos"
 VIDEOS_DESTINATION_NAME=""
 WEB_VIDEOS_DIR=""
 
 	# The directory where the keogram image should be copied to.
-KEOGRAM_DIR="${$MAGE_DIR}/keograms"
+KEOGRAM_DIR="/home/brian/allsky/html/allsky//keograms"
 KEOGRAM_DESTINATION_NAME=""
 WEB_KEOGRAM_DIR=""
 
 	# The directory where the startrails image should be copied to.
-STARTRAILS_DIR="${$MAGE_DIR}/startrails"
+STARTRAILS_DIR="/home/brian/allsky/html/allsky/startrails"
 STARTRAILS_DESTINATION_NAME=""
 WEB_STARTRAILS_DIR=""
 
@@ -59,7 +59,7 @@ SSH_KEY_FILE=""
 
 ############### S3 PROTOCOL only:
 	# AWS CLI directory where the AWS CLI tools are installed.
-AWS_CLI_DIR="/home/pi/.local/bin"
+AWS_CLI_DIR="/home/brian/.local/bin"
 
 	# Name of S3 Bucket where the files will be uploaded.
 S3_BUCKET="allskybucket"

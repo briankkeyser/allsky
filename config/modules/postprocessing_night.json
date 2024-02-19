@@ -15,7 +15,9 @@
         },
         "type": "system",
         "enabled": true,
-        "position": "first"
+        "position": "first",
+        "lastexecutiontime": "0.435159",
+        "lastexecutionresult": "Image /home/brian/allsky/tmp/image-20240219062227.jpg Loaded"
     },
     "overlay": {
         "module": "allsky_overlay.py",
@@ -29,26 +31,28 @@
             },
             "arguments": {
                 "suntimeformat": "",
-                "nonighttext": ""    
+                "nonighttext": ""
             },
             "argumentdetails": {
-                "suntimeformat" : {
+                "suntimeformat": {
                     "required": "false",
                     "tab": "Sun",
                     "description": "Date Time format",
                     "help": "Overrides the default date and time format for the Sun. If this option is not set then the default AllSky 'Time Format' will be used"
                 },
-                "nonighttext" : {
+                "nonighttext": {
                     "required": "false",
                     "tab": "Sun",
                     "description": "No Night Time text",
                     "help": "The text to replace the times for 'night' and 'night end' where there is no astronomical darkness"
-                } 
+                }
             },
             "experimental": false
         },
         "type": "system",
-        "enabled": true
+        "enabled": true,
+        "lastexecutiontime": "9.800000000000001e-05",
+        "lastexecutionresult": "External Overlay Disabled"
     },
     "saveimage": {
         "module": "allsky_saveimage.py",
@@ -66,6 +70,8 @@
         },
         "type": "system",
         "enabled": true,
-        "position": "last"
+        "position": "last",
+        "lastexecutiontime": "0.404158",
+        "lastexecutionresult": "Image /home/brian/allsky/tmp/image-20240219062227.jpg Saved, quality 95"
     }
 }

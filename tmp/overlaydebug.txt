@@ -47,31 +47,35 @@ ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY_NAME        viewSettings
 ALLSKY_WEBUI                                      /home/brian/allsky/html
 ARGS_FILE                                         /home/brian/allsky/tmp/capture_args.txt
 AS_AUTOEXPOSURE                                   1
-AS_AUTOGAIN                                       0
-AS_AUTOWB                                         0
-AS_BAD_IMAGES_MEAN                                0.494008
+AS_AUTOGAIN                                       1
+AS_AUTOWB                                         1
+AS_BAD_IMAGES_MEAN                                0.515492
 AS_BIN                                            1
 AS_BIT_DEPTH                                      0
 AS_BRIGHTNESS                                     0
 AS_CAMERA_MODEL                                   HQ
 AS_CAMERA_TYPE                                    RPi
 AS_DARKFRAME                                      0
-AS_DATE                                           20240218
-AS_EXPOSURE_US                                    23067308
+AS_DATE                                           20240219
+AS_EXPOSURE_US                                    3363585
 AS_FLIP                                           none
-AS_FULLMEAN                                       0.512375
+AS_FULLMEAN                                       0.522150
 AS_GAIN                                           1
-AS_MEAN                                           0.498138
-AS_MEAN_NORMALIZED                                125.972040
-AS_TIME                                           150131
+AS_MEAN                                           0.507191
+AS_MEAN_NORMALIZED                                131.450460
+AS_MOON_AZIMUTH                                   13°
+AS_MOON_ELEVATION                                 -20.91°
+AS_MOON_ILLUMINATION                              78.89
+AS_MOON_SYMBOL                                    I
+AS_TIME                                           092757
 AS_WBB                                            2
 AS_WBR                                            2.500000
 AS_eOVERLAY                                       1
-AS_sAUTOAWB                                       
+AS_sAUTOAWB                                       (auto)
 AS_sAUTOEXPOSURE                                  (auto)
-AS_sAUTOGAIN                                      
-AS_sEXPOSURE                                      23.1 sec
-AUTO_STRETCH                                      false
+AS_sAUTOGAIN                                      (auto)
+AS_sEXPOSURE                                      3.4 sec
+AUTO_STRETCH                                      true
 AUTO_STRETCH_AMOUNT                               10
 AUTO_STRETCH_MID_POINT                            10%
 BRIGHTNESS_THRESHOLD                              0.1
@@ -86,8 +90,8 @@ CROP_IMAGE                                        false
 CROP_OFFSET_X                                     0
 CROP_OFFSET_Y                                     0
 CROP_WIDTH                                        640
-CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240218150131.jpg
-DATE_NAME                                         20240218
+CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240219092757.jpg
+DATE_NAME                                         20240219
 DAYS_TO_KEEP                                      14
 DAY_OR_NIGHT                                      DAY
 EXIT_ERROR_STOP                                   100
@@ -112,17 +116,17 @@ IMG_CREATE_THUMBNAILS                             true
 IMG_DIR                                           current/tmp
 IMG_HEIGHT                                        1520
 IMG_RESIZE                                        false
-IMG_UPLOAD                                        false
+IMG_UPLOAD                                        true
 IMG_UPLOAD_FREQUENCY                              1
 IMG_UPLOAD_ORIGINAL_NAME                          false
 IMG_WIDTH                                         2028
-INVOCATION_ID                                     0b1de5fc385548eb92f4fdd3d63f23b9
-JOURNAL_STREAM                                    8:32384
+INVOCATION_ID                                     4d593e2c67e5485cad73f8b340e712e7
+JOURNAL_STREAM                                    8:263340
 KEEP_SEQUENCE                                     false
 KEOGRAM                                           true
 KEOGRAM_EXTRA_PARAMETERS                          --font-size 1.0 --font-line 1 --font-color '255 255 255'
 LANG                                              en_GB.UTF-8
-LAST_CHANGED                                      2024-02-18 19:48:37
+LAST_CHANGED                                      2024-02-19 12:52:41
 LD_LIBRARY_PATH                                   /home/brian/allsky/venv/lib/python3.11/site-packages/cv2/../../lib64:
 LOCALE                                            en_GB.UTF-8
 LOGNAME                                           brian
@@ -151,9 +155,9 @@ REMOVE_BAD_IMAGES                                 true
 REMOVE_BAD_IMAGES_THRESHOLD_HIGH                  90
 REMOVE_BAD_IMAGES_THRESHOLD_LOW                   1
 REPO_WEBCONFIG_FILE                               /home/brian/allsky/config_repo/configuration.json.repo
-RESIZE_UPLOADS                                    false
-RESIZE_UPLOADS_HEIGHT                             720
-RESIZE_UPLOADS_WIDTH                              962
+RESIZE_UPLOADS                                    true
+RESIZE_UPLOADS_HEIGHT                             760
+RESIZE_UPLOADS_WIDTH                              1014
 RPi_COMMAND_TO_USE                                libcamera-still
 SEE_LOG_MSG                                       See /var/log/allsky.log
 SETTINGS_FILE                                     /home/brian/allsky/config/settings.json
@@ -161,13 +165,13 @@ SHELL                                             /bin/bash
 SHLVL                                             2
 STARTRAILS                                        true
 STARTRAILS_EXTRA_PARAMETERS                       
-SYSTEMD_EXEC_PID                                  8632
+SYSTEMD_EXEC_PID                                  121048
 TAB                                               	
 THUMBNAIL_SIZE_X                                  100
 THUMBNAIL_SIZE_Y                                  75
 TIMELAPSE                                         true
-TIMELAPSEHEIGHT                                   0
-TIMELAPSEWIDTH                                    0
+TIMELAPSEHEIGHT                                   760
+TIMELAPSEWIDTH                                    1014
 TIMELAPSE_BITRATE                                 5000k
 TIMELAPSE_EXTRA_PARAMETERS                        
 TIMELAPSE_MINI_BITRATE                            2000k
@@ -182,9 +186,9 @@ TIMELAPSE_MINI_WIDTH                              1014
 TIMELAPSE_UPLOAD_THUMBNAIL                        true
 UHUBCTL_PATH                                      
 UHUBCTL_PORT                                      2
-UPLOAD_KEOGRAM                                    false
-UPLOAD_STARTRAILS                                 false
-UPLOAD_VIDEO                                      false
+UPLOAD_KEOGRAM                                    true
+UPLOAD_STARTRAILS                                 true
+UPLOAD_VIDEO                                      true
 USER                                              brian
 USE_NOTIFICATION_IMAGES                           1
 VCODEC                                            libx264

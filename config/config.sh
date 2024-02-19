@@ -33,14 +33,14 @@ CROP_OFFSET_X=0
 CROP_OFFSET_Y=0
 
 # Auto stretch images saved at night.  The numbers below are good defaults.
-AUTO_STRETCH="false"
+AUTO_STRETCH="true"
 AUTO_STRETCH_AMOUNT=10
 AUTO_STRETCH_MID_POINT="10%"
 
 # Resize uploaded images.  Change the size to fit your sensor.  
-RESIZE_UPLOADS="false"
-RESIZE_UPLOADS_WIDTH=962
-RESIZE_UPLOADS_HEIGHT=720
+RESIZE_UPLOADS="true"
+RESIZE_UPLOADS_WIDTH=1014
+RESIZE_UPLOADS_HEIGHT=760
 
 # Create thumbnails of images.  If you never look at them, consider changing this to "false".
 IMG_CREATE_THUMBNAILS="true"
@@ -56,8 +56,8 @@ REMOVE_BAD_IMAGES_THRESHOLD_HIGH=90
 TIMELAPSE="true"
 
 # Set the resolution in pixels of the timelapse video.
-TIMELAPSEWIDTH=0
-TIMELAPSEHEIGHT=0
+TIMELAPSEWIDTH=1014
+TIMELAPSEHEIGHT=760
 
 # Bitrate of the timelapse video.
 TIMELAPSE_BITRATE="5000k"

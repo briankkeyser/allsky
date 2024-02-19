@@ -2,47 +2,49 @@
     "fields": [
         {
             "label": "${DATE} ${TIME}",
-            "x": 268.91015625,
-            "y": 48,
+            "x": 180.013671875,
+            "y": 32,
             "id": "oe-field-0",
-            "format": "%d-%m-%Y,%H:%M:%S",
+            "format": "%m-%d-%Y,%H:%M:%S",
             "strokewidth": 0,
             "sample": "DATE,TIME",
             "tlx": 20,
-            "tly": 20,
+            "tly": 14,
             "font": "Arial Black",
-            "fontsize": 60,
             "fill": "#ff0000"
         },
         {
             "label": "Exposure: ${sEXPOSURE}",
-            "x": 333.599609375,
-            "y": 154,
+            "x": 212.984375,
+            "y": 78,
             "id": "oe-field-1",
             "strokewidth": 0,
             "tlx": 20,
-            "tly": 128
+            "tly": 62,
+            "fontsize": 32
         },
         {
             "label": "Gain: ${GAIN}",
-            "x": 172.0859375,
-            "y": 254,
+            "x": 121.390625,
+            "y": 118,
             "id": "oe-field-2",
-            "fontsize": 48,
+            "fontsize": 32,
             "strokewidth": 0,
             "tlx": 20,
-            "tly": 230
+            "tly": 102,
+            "format": "{:.2f}"
         },
         {
             "label": "${CAMERA_TYPE} ${CAMERA_MODEL}",
-            "x": 419,
-            "y": 3002,
+            "x": 317.0078125,
+            "y": 154,
             "id": "oe-field-3",
-            "fontsize": 44,
+            "fontsize": 32,
             "strokewidth": 0,
             "sample": "RPi HQ",
-            "tlx": 10,
-            "tly": 2980
+            "tlx": 20,
+            "tly": 138,
+            "fill": "#ffffff"
         }
     ],
     "images": [],
@@ -50,16 +52,18 @@
         "defaultdatafileexpiry": "550",
         "defaultincludeplanets": false,
         "defaultincludesun": false,
-        "defaultincludemoon": false,
+        "defaultincludemoon": true,
         "defaultimagetopacity": 0.63,
         "defaultimagerotation": 0,
         "defaulttextrotation": 0,
         "defaultfontopacity": 1,
         "defaultfontcolour": "white",
         "defaultfont": "Arial",
-        "defaultfontsize": 52,
+        "defaultfontsize": 36,
         "defaultimagescale": 1,
-        "defaultnoradids": ""
+        "defaultnoradids": "",
+        "defaultexpirytext": "",
+        "defaultstrokecolour": ""
     },
     "fonts": {
         "moon_phases": {
