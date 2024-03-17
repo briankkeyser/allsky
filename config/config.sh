@@ -21,14 +21,14 @@ IMG_UPLOAD_ORIGINAL_NAME="false"
 IMG_UPLOAD_FREQUENCY=1
 
 # Resize images before cropping, stretching, and saving.
-IMG_RESIZE="false"
+IMG_RESIZE="true"
 IMG_WIDTH=2028
 IMG_HEIGHT=1520
 
 # Crop images before stretching and saving.
-CROP_IMAGE="false"
-CROP_WIDTH=640
-CROP_HEIGHT=480
+CROP_IMAGE="true"
+CROP_WIDTH=1520
+CROP_HEIGHT=1520
 CROP_OFFSET_X=0
 CROP_OFFSET_Y=0
 
@@ -39,11 +39,11 @@ AUTO_STRETCH_MID_POINT="10%"
 
 # Resize uploaded images.  Change the size to fit your sensor.  
 RESIZE_UPLOADS="true"
-RESIZE_UPLOADS_WIDTH=1014
+RESIZE_UPLOADS_WIDTH=760
 RESIZE_UPLOADS_HEIGHT=760
 
 # Create thumbnails of images.  If you never look at them, consider changing this to "false".
-IMG_CREATE_THUMBNAILS="true"
+IMG_CREATE_THUMBNAILS="false"
 
 # Remove corrupt or too dim/bright images.
 REMOVE_BAD_IMAGES="true"
@@ -56,7 +56,7 @@ REMOVE_BAD_IMAGES_THRESHOLD_HIGH=90
 TIMELAPSE="true"
 
 # Set the resolution in pixels of the timelapse video.
-TIMELAPSEWIDTH=1014
+TIMELAPSEWIDTH=760
 TIMELAPSEHEIGHT=760
 
 # Bitrate of the timelapse video.
@@ -84,7 +84,7 @@ TIMELAPSE_EXTRA_PARAMETERS=""
 UPLOAD_VIDEO="true"
 
 # Set to "true" to upload the timelapse video's thumbnail to your website at the end of each night.
-TIMELAPSE_UPLOAD_THUMBNAIL="true"
+TIMELAPSE_UPLOAD_THUMBNAIL="false"
 
 ###### Mini-timelapse
 # The number of images you want in the mini-timelapse.  0 disables mini-timelapse creation.
@@ -117,7 +117,6 @@ KEOGRAM_EXTRA_PARAMETERS="--font-size 1.0 --font-line 1 --font-color '255 255 25
 # Set to "true" to upload the keogram image to your website at the end of each night.
 UPLOAD_KEOGRAM="true"
 
-
 ########## Startrails
 # Set to "true" to generate a startrails image of each night.
 STARTRAILS="true"
@@ -132,18 +131,17 @@ STARTRAILS_EXTRA_PARAMETERS=""
 # Set to "true" to upload the startrails image to your website at the end of each night.
 UPLOAD_STARTRAILS="true"
 
-
 ########## Other
 # Size of thumbnails.
-THUMBNAIL_SIZE_X=100
-THUMBNAIL_SIZE_Y=75
+THUMBNAIL_SIZE_X=16
+THUMBNAIL_SIZE_Y=16
 
 # Set this value to the number of days images plus videos you want to keep.
 # Set to 0 to keep ALL days.
 DAYS_TO_KEEP=14
 
 # Same as DAYS_TO_KEEP, but for the Allsky Website, if installed.
-WEB_DAYS_TO_KEEP=0
+WEB_DAYS_TO_KEEP=7
 
 # See the documentation for a description of this setting.
 WEBUI_DATA_FILES=""

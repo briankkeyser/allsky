@@ -34,7 +34,7 @@
     "nightskipframes": "1",
     "nightTuningFile": "",
     "config": "[none]",
-    "extraArgs": "",
+    "extraArgs": "--metadata   /home/brian/allsky/config/overlay/extra/libcamera.json",
     "saturation": "1",
     "contrast": "1",
     "sharpness": "1",
@@ -81,12 +81,12 @@
     "showonmap": "0",
     "websiteurl": "",
     "imageurl": "",
-    "location": "",
+    "location": "Newtown, PA",
     "owner": "Brian Keyser",
     "camera": "RPi HQ",
-    "lens": "180 Fisheye",
+    "lens": "f2,2 4.6mm 195 degrees",
     "computer": "Raspberry Pi4, 8gb",
     "cameraType": "RPi",
     "cameraModel": "HQ",
-    "lastChanged": "2024-02-21 11:25:30"
+    "lastChanged": "2024-03-07 22:26:16"
 }

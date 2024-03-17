@@ -1,4 +1,13 @@
 {
     "data": [
+        {
+            "id": 0,
+            "name": "${SensorTemperature}",
+            "description": "Camera Temperature",
+            "format": "{:n}",
+            "sample": "",
+            "type": "Number",
+            "source": "User"
+        }
     ]
 }

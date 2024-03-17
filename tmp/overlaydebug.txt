@@ -46,35 +46,55 @@ ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY             /home/brian/allsky/html/allsky
 ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY_NAME        viewSettings
 ALLSKY_WEBUI                                      /home/brian/allsky/html
 ARGS_FILE                                         /home/brian/allsky/tmp/capture_args.txt
+AS_20580ALT                                       -38deg 21' 08.9"
+AS_20580AZ                                        71deg 16' 24.2"
+AS_20580VISIBLE                                   No
+AS_25544ALT                                       -29deg 38' 38.9"
+AS_25544AZ                                        294deg 05' 49.0"
+AS_25544VISIBLE                                   No
 AS_AUTOEXPOSURE                                   1
 AS_AUTOGAIN                                       1
 AS_AUTOWB                                         1
-AS_BAD_IMAGES_MEAN                                0.510836
+AS_AeLocked                                       True
+AS_AnalogueGain                                   1.0
+AS_BAD_IMAGES_MEAN                                0.216318
 AS_BIN                                            1
 AS_BIT_DEPTH                                      0
 AS_BRIGHTNESS                                     0
 AS_CAMERA_MODEL                                   HQ
 AS_CAMERA_TYPE                                    RPi
+AS_ColourCorrectionMatrix                         [2.228487, -0.962505, -0.265981, -0.34628, 2.120048, -0.773766, -0.162155, -0.44221, 1.604361]
+AS_ColourGains                                    [3.574898, 1.484493]
+AS_ColourTemperature                              6496
 AS_DARKFRAME                                      0
-AS_DATE                                           20240221
-AS_EXPOSURE_US                                    60000000
+AS_DATE                                           20240317
+AS_DigitalGain                                    1.008246
+AS_EXPOSURE_US                                    1642
+AS_ExposureTime                                   1628
 AS_FLIP                                           none
-AS_FULLMEAN                                       0.471373
-AS_GAIN                                           1.864340
-AS_MEAN                                           0.482381
-AS_MEAN_NORMALIZED                                130.263180
-AS_MOON_AZIMUTH                                   316°
-AS_MOON_ELEVATION                                 -11.25°
-AS_MOON_ILLUMINATION                              91.68
-AS_MOON_SYMBOL                                    J
-AS_TIME                                           064937
+AS_FULLMEAN                                       0.230245
+AS_FocusFoM                                       6153
+AS_FrameDuration                                  100000
+AS_GAIN                                           1
+AS_Lux                                            4833.253906
+AS_MEAN                                           0.538122
+AS_MEAN_NORMALIZED                                55.161090
+AS_MOON_AZIMUTH                                   10°
+AS_MOON_ELEVATION                                 -21.3°
+AS_MOON_ILLUMINATION                              53.52
+AS_MOON_SYMBOL                                    F
+AS_ScalerCrop                                     (0, 0)/4056x3040
+AS_SensorBlackLevels                              [4096, 4096, 4096, 4096]
+AS_SensorTemperature                              32.0
+AS_SensorTimestamp                                70034199070000
+AS_TIME                                           080720
 AS_WBB                                            2
 AS_WBR                                            2.500000
 AS_eOVERLAY                                       1
 AS_sAUTOAWB                                       (auto)
 AS_sAUTOEXPOSURE                                  (auto)
 AS_sAUTOGAIN                                      (auto)
-AS_sEXPOSURE                                      60.0 sec
+AS_sEXPOSURE                                      1.64 ms
 AUTO_STRETCH                                      true
 AUTO_STRETCH_AMOUNT                               10
 AUTO_STRETCH_MID_POINT                            10%
@@ -85,13 +105,13 @@ CAPTURE                                           capture_RPi
 CAPTURE_SAVE_DIR                                  /home/brian/allsky/tmp
 CC_FILE                                           /home/brian/allsky/config/cc.json
 CONFIG_SH_VERSION                                 1
-CROP_HEIGHT                                       480
-CROP_IMAGE                                        false
+CROP_HEIGHT                                       1520
+CROP_IMAGE                                        true
 CROP_OFFSET_X                                     0
 CROP_OFFSET_Y                                     0
-CROP_WIDTH                                        640
-CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240221064937.jpg
-DATE_NAME                                         20240221
+CROP_WIDTH                                        1520
+CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240317080720.jpg
+DATE_NAME                                         20240317
 DAYS_TO_KEEP                                      14
 DAY_OR_NIGHT                                      DAY
 EXIT_ERROR_STOP                                   100
@@ -112,21 +132,21 @@ GITHUB_ROOT                                       https://github.com/AllskyTeam
 GITHUB_WEBSITE_PACKAGE                            allsky-website
 GREEN                                             
 HOME                                              /home/brian
-IMG_CREATE_THUMBNAILS                             true
+IMG_CREATE_THUMBNAILS                             false
 IMG_DIR                                           current/tmp
 IMG_HEIGHT                                        1520
-IMG_RESIZE                                        false
+IMG_RESIZE                                        true
 IMG_UPLOAD                                        true
 IMG_UPLOAD_FREQUENCY                              1
 IMG_UPLOAD_ORIGINAL_NAME                          false
 IMG_WIDTH                                         2028
-INVOCATION_ID                                     63a881fbeceb4ceeae790b90f54e07f5
-JOURNAL_STREAM                                    8:305000
+INVOCATION_ID                                     7fc1e530e01b4dc6bd700ad270bf1739
+JOURNAL_STREAM                                    8:94935
 KEEP_SEQUENCE                                     false
 KEOGRAM                                           true
 KEOGRAM_EXTRA_PARAMETERS                          --font-size 1.0 --font-line 1 --font-color '255 255 255'
 LANG                                              en_GB.UTF-8
-LAST_CHANGED                                      2024-02-21 11:25:30
+LAST_CHANGED                                      2024-03-07 22:26:16
 LD_LIBRARY_PATH                                   /home/brian/allsky/venv/lib/python3.11/site-packages/cv2/../../lib64:
 LOCALE                                            en_GB.UTF-8
 LOGNAME                                           brian
@@ -157,7 +177,7 @@ REMOVE_BAD_IMAGES_THRESHOLD_LOW                   1
 REPO_WEBCONFIG_FILE                               /home/brian/allsky/config_repo/configuration.json.repo
 RESIZE_UPLOADS                                    true
 RESIZE_UPLOADS_HEIGHT                             760
-RESIZE_UPLOADS_WIDTH                              1014
+RESIZE_UPLOADS_WIDTH                              760
 RPi_COMMAND_TO_USE                                libcamera-still
 SEE_LOG_MSG                                       See /var/log/allsky.log
 SETTINGS_FILE                                     /home/brian/allsky/config/settings.json
@@ -165,13 +185,13 @@ SHELL                                             /bin/bash
 SHLVL                                             2
 STARTRAILS                                        true
 STARTRAILS_EXTRA_PARAMETERS                       
-SYSTEMD_EXEC_PID                                  142730
+SYSTEMD_EXEC_PID                                  54238
 TAB                                               	
-THUMBNAIL_SIZE_X                                  100
-THUMBNAIL_SIZE_Y                                  75
+THUMBNAIL_SIZE_X                                  16
+THUMBNAIL_SIZE_Y                                  16
 TIMELAPSE                                         true
 TIMELAPSEHEIGHT                                   760
-TIMELAPSEWIDTH                                    1014
+TIMELAPSEWIDTH                                    760
 TIMELAPSE_BITRATE                                 5000k
 TIMELAPSE_EXTRA_PARAMETERS                        
 TIMELAPSE_MINI_BITRATE                            2000k
@@ -183,7 +203,7 @@ TIMELAPSE_MINI_IMAGES                             0
 TIMELAPSE_MINI_UPLOAD_THUMBNAIL                   false
 TIMELAPSE_MINI_UPLOAD_VIDEO                       false
 TIMELAPSE_MINI_WIDTH                              1014
-TIMELAPSE_UPLOAD_THUMBNAIL                        true
+TIMELAPSE_UPLOAD_THUMBNAIL                        false
 UHUBCTL_PATH                                      
 UHUBCTL_PORT                                      2
 UPLOAD_KEOGRAM                                    true
@@ -196,7 +216,7 @@ VIRTUAL_ENV                                       /home/brian/allsky/venv
 VIRTUAL_ENV_PROMPT                                (venv) 
 WEBSERVER_GROUP                                   www-data
 WEBUI_DATA_FILES                                  
-WEB_DAYS_TO_KEEP                                  0
+WEB_DAYS_TO_KEEP                                  7
 YELLOW                                            
 _                                                 /home/brian/allsky/venv/bin/python3
 _OLD_VIRTUAL_PS1                                  
