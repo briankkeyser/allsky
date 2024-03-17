@@ -46,48 +46,48 @@ ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY             /home/brian/allsky/html/allsky
 ALLSKY_WEBSITE_VIEWSETTINGS_DIRECTORY_NAME        viewSettings
 ALLSKY_WEBUI                                      /home/brian/allsky/html
 ARGS_FILE                                         /home/brian/allsky/tmp/capture_args.txt
-AS_20580ALT                                       -38deg 21' 08.9"
-AS_20580AZ                                        71deg 16' 24.2"
+AS_20580ALT                                       -41deg 12' 34.1"
+AS_20580AZ                                        69deg 39' 07.1"
 AS_20580VISIBLE                                   No
-AS_25544ALT                                       -29deg 38' 38.9"
-AS_25544AZ                                        294deg 05' 49.0"
+AS_25544ALT                                       -29deg 01' 42.9"
+AS_25544AZ                                        287deg 53' 06.0"
 AS_25544VISIBLE                                   No
 AS_AUTOEXPOSURE                                   1
 AS_AUTOGAIN                                       1
 AS_AUTOWB                                         1
 AS_AeLocked                                       True
 AS_AnalogueGain                                   1.0
-AS_BAD_IMAGES_MEAN                                0.216318
+AS_BAD_IMAGES_MEAN                                0.228691
 AS_BIN                                            1
 AS_BIT_DEPTH                                      0
 AS_BRIGHTNESS                                     0
 AS_CAMERA_MODEL                                   HQ
 AS_CAMERA_TYPE                                    RPi
-AS_ColourCorrectionMatrix                         [2.228487, -0.962505, -0.265981, -0.34628, 2.120048, -0.773766, -0.162155, -0.44221, 1.604361]
-AS_ColourGains                                    [3.574898, 1.484493]
-AS_ColourTemperature                              6496
+AS_ColourCorrectionMatrix                         [2.229041, -0.962588, -0.266453, -0.346009, 2.121522, -0.77551, -0.16227, -0.443017, 1.605283]
+AS_ColourGains                                    [3.570175, 1.483549]
+AS_ColourTemperature                              6504
 AS_DARKFRAME                                      0
 AS_DATE                                           20240317
 AS_DigitalGain                                    1.008246
 AS_EXPOSURE_US                                    1642
 AS_ExposureTime                                   1628
 AS_FLIP                                           none
-AS_FULLMEAN                                       0.230245
-AS_FocusFoM                                       6153
+AS_FULLMEAN                                       0.242686
+AS_FocusFoM                                       5670
 AS_FrameDuration                                  100000
 AS_GAIN                                           1
-AS_Lux                                            4833.253906
-AS_MEAN                                           0.538122
-AS_MEAN_NORMALIZED                                55.161090
+AS_Lux                                            5113.078613
+AS_MEAN                                           0.560248
+AS_MEAN_NORMALIZED                                58.316205
 AS_MOON_AZIMUTH                                   10°
-AS_MOON_ELEVATION                                 -21.3°
-AS_MOON_ILLUMINATION                              53.52
+AS_MOON_ELEVATION                                 -21.25°
+AS_MOON_ILLUMINATION                              53.53
 AS_MOON_SYMBOL                                    F
 AS_ScalerCrop                                     (0, 0)/4056x3040
 AS_SensorBlackLevels                              [4096, 4096, 4096, 4096]
 AS_SensorTemperature                              32.0
-AS_SensorTimestamp                                70034199070000
-AS_TIME                                           080720
+AS_SensorTimestamp                                70126518842000
+AS_TIME                                           080852
 AS_WBB                                            2
 AS_WBR                                            2.500000
 AS_eOVERLAY                                       1
@@ -110,7 +110,7 @@ CROP_IMAGE                                        true
 CROP_OFFSET_X                                     0
 CROP_OFFSET_Y                                     0
 CROP_WIDTH                                        1520
-CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240317080720.jpg
+CURRENT_IMAGE                                     /home/brian/allsky/tmp/image-20240317080852.jpg
 DATE_NAME                                         20240317
 DAYS_TO_KEEP                                      14
 DAY_OR_NIGHT                                      DAY
