@@ -27,12 +27,12 @@
         {
             "label": "Gain: ${GAIN}",
             "x": 146.73828125,
-            "y": 160,
+            "y": 220,
             "id": "oe-field-2",
             "fontsize": 40,
             "strokewidth": 0,
             "tlx": 20,
-            "tly": 140,
+            "tly": 200,
             "format": "{:.2f}"
         },
         {
@@ -51,7 +51,7 @@
             "label": "${TEMPERATURE_F}",
             "x": 217.4609375,
             "y": 340,
-            "id": "oe-field-5",
+            "id": "oe-field-4",
             "fontsize": 40,
             "format": "{:.1f}",
             "strokewidth": 0,
@@ -62,14 +62,14 @@
         {
             "label": "Sensor Temp (C): ${SensorTemperature}",
             "x": 382.392578125,
-            "y": 220,
-            "id": "oe-field-6",
+            "y": 160,
+            "id": "oe-field-5",
             "fontsize": 40,
             "format": "{:n}",
             "strokewidth": 0,
             "sample": "",
             "tlx": 20,
-            "tly": 200
+            "tly": 140
         }
     ],
     "images": [],

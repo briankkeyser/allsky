@@ -29,7 +29,7 @@ IMG_HEIGHT=1520
 CROP_IMAGE="true"
 CROP_WIDTH=1520
 CROP_HEIGHT=1520
-CROP_OFFSET_X=0
+CROP_OFFSET_X=-40
 CROP_OFFSET_Y=0
 
 # Auto stretch images saved at night.  The numbers below are good defaults.
@@ -123,7 +123,7 @@ STARTRAILS="true"
 
 # Images with a brightness higher than this threshold will be skipped for
 # startrails image generation.
-BRIGHTNESS_THRESHOLD=0.1
+BRIGHTNESS_THRESHOLD=0.2
 
 # Any additional startrails parameters.
 STARTRAILS_EXTRA_PARAMETERS=""
@@ -138,7 +138,7 @@ THUMBNAIL_SIZE_Y=16
 
 # Set this value to the number of days images plus videos you want to keep.
 # Set to 0 to keep ALL days.
-DAYS_TO_KEEP=14
+DAYS_TO_KEEP=7
 
 # Same as DAYS_TO_KEEP, but for the Allsky Website, if installed.
 WEB_DAYS_TO_KEEP=7

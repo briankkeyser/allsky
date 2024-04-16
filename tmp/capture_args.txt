@@ -6,7 +6,7 @@
 -daymean=0.5
 -daymeanthreshold=0.1
 -daybrightness=0
--daydelay=30000
+-daydelay=10000
 -dayautogain=1
 -daymaxautogain=16
 -daygain=1
@@ -17,12 +17,12 @@
 -dayskipframes=5
 -dayTuningFile=
 -nightautoexposure=1
--nightmaxautoexposure=60000
+-nightmaxautoexposure=80000
 -nightexposure=10000
 -nightmean=0.2
--nightmeanthreshold=0.1
+-nightmeanthreshold=0.05
 -nightbrightness=0
--nightdelay=30000
+-nightdelay=10000
 -nightautogain=1
 -nightmaxautogain=16
 -nightgain=8
@@ -85,6 +85,6 @@
 -computer=Raspberry Pi4, 8gb
 -cameraType=RPi
 -cameraModel=HQ
--lastChanged=2024-03-07 22:26:16
+-lastChanged=2024-04-09 15:36:03
 -version=v2023.05.01_04
 -save_dir=/home/brian/allsky/tmp

@@ -16,8 +16,8 @@
         "type": "system",
         "enabled": true,
         "position": "first",
-        "lastexecutiontime": "0.101559",
-        "lastexecutionresult": "Image /home/brian/allsky/tmp/image-20240317080852.jpg Loaded"
+        "lastexecutiontime": "0.110412",
+        "lastexecutionresult": "Image /home/brian/allsky/tmp/image-20240416104949.jpg Loaded"
     },
     "overlay": {
         "module": "allsky_overlay.py",
@@ -46,7 +46,7 @@
         },
         "type": "system",
         "enabled": true,
-        "lastexecutiontime": "0.095043",
+        "lastexecutiontime": "0.131375",
         "lastexecutionresult": "Overlay Complete"
     },
     "saveimage": {
@@ -66,7 +66,7 @@
         "type": "system",
         "enabled": true,
         "position": "last",
-        "lastexecutiontime": "0.07229",
-        "lastexecutionresult": "Image /home/brian/allsky/tmp/image-20240317080852.jpg Saved, quality 95"
+        "lastexecutiontime": "0.086986",
+        "lastexecutionresult": "Image /home/brian/allsky/tmp/image-20240416104949.jpg Saved, quality 95"
     }
 }
